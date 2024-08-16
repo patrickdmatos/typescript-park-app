@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Parking Web
+This project is a web application designed to manage a parking lot, built using Next.js, React, and TypeScript. The application allows users to manage parking spots, including the ability to add vehicle information, remove vehicles, and manage spot availability.
 
-## Getting Started
+## Project Structure
+The project is structured around the Next.js framework, which offers server-side rendering and static site generation out of the box. The application leverages Tailwind CSS for styling and ESLint for code linting.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Dependencies
+### Production Dependencies
+- react: The core library for building user interfaces.
+- react-dom: Provides DOM-specific methods that can be used at the top level of a web app to enable an efficient way of managing -DOM elements of the web page.
+- next: A React framework that enables several extra features, including server-side rendering and generating static websites.
+- Development Dependencies
+- typescript: A typed superset of JavaScript that compiles to plain JavaScript.
+- @types/node: Type definitions for Node.js.
+- @types/react: Type definitions for React.
+- @types/react-dom: Type definitions for React DOM.
+- postcss: A tool for transforming CSS with JavaScript plugins.
+- tailwindcss: A utility-first CSS framework.
+- eslint: A tool for identifying and fixing problems in your JavaScript code.
+- eslint-config-next: ESLint configuration preset for Next.js projects.
