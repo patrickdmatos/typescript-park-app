@@ -5,7 +5,9 @@ import { useState } from "react";
 type Vehicle = {
   vehicleType: string;
   plate: string;
+  parkedTime: string;
 } | null;
+
 
 export default function Home() {
   const [vehicles, setVehicles] = useState<Vehicle[]>(Array(20).fill(null));
